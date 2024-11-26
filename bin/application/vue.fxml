@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.VueController">
+   <children>
+      <Button fx:id="calculate" layoutX="1.0" layoutY="175.0" mnemonicParsing="false" onAction="#calculate" prefHeight="84.0" prefWidth="594.0" text="Calculate" textFill="RED">
+         <font>
+            <Font size="39.0" />
+         </font></Button>
+      <TextField fx:id="billAmount" layoutX="49.0" layoutY="52.0" prefHeight="31.0" prefWidth="44.0" />
+      <TextField fx:id="tipPercentage" layoutX="152.0" layoutY="52.0" prefHeight="31.0" prefWidth="51.0" />
+      <TextField fx:id="numberOfPeople" layoutX="288.0" layoutY="52.0" prefHeight="31.0" prefWidth="51.0" />
+      <Text layoutX="20.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bill" />
+      <Text layoutX="106.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tip %" />
+      <Text layoutX="212.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nb person" />
+      <Text layoutX="79.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tip (per person)" />
+      <Text layoutX="357.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total (per person)" />
+      <Label fx:id="totalTip" layoutX="203.0" layoutY="298.0" />
+      <Label fx:id="totalAmount" layoutX="494.0" layoutY="298.0" />
+      <Label fx:id="error" contentDisplay="CENTER" layoutX="20.0" layoutY="107.0" prefHeight="58.0" prefWidth="560.0" textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="date" layoutX="397.0" layoutY="52.0" />
+      <Text layoutX="346.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date :" wrappingWidth="51.00000500679016" />
+   </children>
+</AnchorPane>
