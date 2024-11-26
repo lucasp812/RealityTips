@@ -84,7 +84,7 @@ public class TipCalculator implements Serializable {
 }
 /*
 private void validateIsNumeric(int value, String errorMessage) {
-    if (value < 0) {
+    if (value < 0) {  
         throw new  NumberFormatException(errorMessage);
     }
 }*/
